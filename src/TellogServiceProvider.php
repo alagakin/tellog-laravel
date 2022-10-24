@@ -8,10 +8,8 @@ class TellogServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-    }
-
-    public function register()
-    {
-
+        $this->publishes([
+            __DIR__ . '/../config/tellog.php' => config_path('tellog.php')
+        ]);
     }
 }
