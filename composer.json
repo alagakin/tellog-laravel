@@ -1,0 +1,22 @@
+{
+    "name": "alagakin/tellog-laravel",
+    "description": "package for sending requests to tellog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Agakin",
+            "email": "agakinalexandr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alagakin\\Tellog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": "Alagakin\\Tellog\\TellogServiceProvider"
+        }
+    }
+}
