@@ -12,4 +12,9 @@ class TellogServiceProvider extends ServiceProvider
             __DIR__ . '/../config/tellog.php' => config_path('tellog.php')
         ]);
     }
+
+    public function register()
+    {
+
+    }
 }
